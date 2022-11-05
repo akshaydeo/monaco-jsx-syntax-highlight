@@ -1,4 +1,5 @@
 import { Classification } from './worker/types'
+import { analysis } from './worker/analysis';
 
 export interface WorkerStringContainer {
   worker: string
@@ -116,4 +117,5 @@ export class MonacoJsxSyntaxHighlight {
   }
 }
 
+export { analysis } from './worker/analysis'
 export { getWorker } from './get-worker'
